@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatpage - Build Your Website Through Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-left">
+                <div class="back-arrow">←</div>
+                <div class="bot-avatar">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4ZM9 9C8.45 9 8 9.45 8 10C8 10.55 8.45 11 9 11C9.55 11 10 10.55 10 10C10 9.45 9.55 9 9 9ZM15 9C14.45 9 14 9.45 14 10C14 10.55 14.45 11 15 11C15.55 11 16 10.55 16 10C16 9.45 15.55 9 15 9ZM12 17.5C14.33 17.5 16.32 16.04 17.12 14H6.88C7.68 16.04 9.67 17.5 12 17.5Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="header-info">
+                    <div class="bot-name">Chatpage</div>
+                    <div class="bot-status">online</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">Hey! 👋 I'm Chatpage. I build professional websites for businesses.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">No designers. No coding. No complexity.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper user-wrapper">
+                <div class="message user-message">
+                    <div class="message-text">How does it work?</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">Simple. You chat with me on Telegram. Tell me about your business.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">I ask a few questions. You answer naturally, like we're talking right now.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">Then I build your website. Usually takes minutes, not weeks.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper user-wrapper">
+                <div class="message user-message">
+                    <div class="message-text">That's it?</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">That's it. 🎉</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">Perfect for founders who need to move fast. Business owners who want results without the hassle.</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="message-wrapper bot-wrapper">
+                <div class="message bot-message">
+                    <div class="message-text">Ready to build yours?</div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <div class="cta-message">
+                <a href="https://t.me/chatpage_bot" target="_blank" class="telegram-button" id="telegramCta">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.01C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.01 10.46 14.01 10.42 13.99 10.38C13.97 10.34 13.94 10.31 13.9 10.3C13.85 10.28 13.79 10.29 13.74 10.31C13.67 10.34 12.54 11.09 10.34 12.57C10.01 12.8 9.71 12.91 9.44 12.9C9.14 12.89 8.57 12.73 8.15 12.59C7.64 12.42 7.23 12.33 7.27 12.04C7.29 11.89 7.5 11.74 7.9 11.59C10.31 10.52 11.93 9.8 12.77 9.44C15.07 8.47 15.56 8.3 15.89 8.3C15.96 8.3 16.12 8.32 16.23 8.4C16.32 8.47 16.35 8.56 16.36 8.63C16.35 8.68 16.37 8.83 16.64 8.8Z" fill="currentColor"/>
+                    </svg>
+                    <span>Start Chat on Telegram</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Continue on Telegram..." readonly>
+                <button class="send-button">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
